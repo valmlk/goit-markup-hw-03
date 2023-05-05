@@ -127,7 +127,7 @@ body {
   border-bottom: 1px solid var(--accent-color);
 }
 
-.page-header > div {
+.page-header-container {
   display: flex;
   align-items: center;
   padding-bottom: 24px;
