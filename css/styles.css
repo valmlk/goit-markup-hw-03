@@ -126,8 +126,6 @@ body {
   border-bottom: 1px solid var(--accent-color);
   display: flex;
   align-items: center;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 
 .page-header-container {
