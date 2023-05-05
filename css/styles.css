@@ -96,6 +96,7 @@ body {
 
 .menu-link {
   color: var(--dark-color);
+  padding: 24px 0;
 }
 
 .menu-link:active,
@@ -120,6 +121,7 @@ body {
 
 .page-navigation {
   display: flex;
+  align-items: center;
 }
 
 .page-header {
@@ -135,12 +137,12 @@ body {
 
 .menu {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .contact-list {
   display: flex;
-  column-gap: 40px;
+  gap: 40px;
 }
 
 .contact-list-item {
@@ -250,7 +252,8 @@ body {
 .employees-container {
   background-color: var(--light-color);
   width: 1440px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .employees-card {
@@ -277,22 +280,24 @@ body {
 }
 
 .footer-container {
+  padding-bottom: 100px;
+  padding-top: 100px;
+ 
+}
+
+.footer {
   background-color: var(--dark-color);
   width: 1440px;
   margin: auto;
 }
 
-.footer {
-  padding-top: 100px;
-  padding-bottom: 100px;
-}
-
 .footer-text {
   color: var(--light-color);
-  width: 264px;
+  max-width: 264px;
 }
 
-.footer-title {
+.footer-logo {
+  display: inline-block;
   margin-bottom: 16px;
 }
 
