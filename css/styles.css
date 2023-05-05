@@ -95,7 +95,7 @@ body {
 
 .menu-link {
   color: var(--dark-color);
-  padding: 24px 0;
+  /* padding: 24px 0 ; */
 }
 
 .menu-link:active,
