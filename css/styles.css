@@ -92,11 +92,13 @@ body {
   line-height: 1.5;
   padding-top: 24px;
   padding-bottom: 24px;
+
 }
 
 .menu-link {
   color: var(--dark-color);
-  
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .menu-link:active,
